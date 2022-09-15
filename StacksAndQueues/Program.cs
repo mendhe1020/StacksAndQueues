@@ -29,6 +29,11 @@
 
             queues.Display();
 
+            while (!list.IsEmpty())
+            {
+                queues.Dequeue();
+            }
+
         }
     }
 }

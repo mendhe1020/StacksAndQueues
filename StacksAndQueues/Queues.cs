@@ -49,9 +49,6 @@ namespace StacksAndQueues
                 temp = temp.next;
             }
         }
-
-
-
         public void Dequeue()
         {
             if (first == null)
@@ -86,8 +83,6 @@ namespace StacksAndQueues
             }
 
         }
-
-
 
     }
 }
