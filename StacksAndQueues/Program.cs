@@ -20,6 +20,15 @@
                 list.Pop();
             }
 
+
+            Queues queues = new Queues();
+
+            queues.Enqueue(56);
+            queues.Enqueue(30);
+            queues.Enqueue(70);
+
+            queues.Display();
+
         }
     }
 }
